@@ -5,7 +5,7 @@ import time
 import telegram
 from telegram.ext import *
 life = 0
-telegram_api = "5111544595:AAFxjc-Z2pwJG9rzv1VEcDkuN4QaTQLxbfs"  # Replace this with your telegram bot api
+telegram_api = " "  # Replace this with your telegram bot api
 bot = telegram.Bot(token=telegram_api)
 
 def start_command(update, context):
