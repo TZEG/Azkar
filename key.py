@@ -85,7 +85,7 @@ async def help_command(update: Update, context: ContextTypes.context) -> None:
 def main() -> None:
     """Run the bot."""
     # Create the Application and pass it your bot's token.
-    application = Application.builder().token("").build()
+    application = Application.builder().token(":").build()
     application.add_handler(CommandHandler("time", time))
     application.add_handler(CommandHandler("start", start_command))
     application.add_handler(CallbackQueryHandler(send_azkar))
