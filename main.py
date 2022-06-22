@@ -53,7 +53,7 @@ async def send_azkar(update: Update, context: ContextTypes.context) -> None:
         await query.answer()
         if query.data == "1":
             await query.message.reply_text(text=random.choice(azkar))
-            sleep(10)
+            sleep(300)
         if query.data == "2":
             await query.message.reply_text(text=random.choice(azkar))
             sleep(900)
